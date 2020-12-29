@@ -1,0 +1,124 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+
+    "profiles":
+    {
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles
+            "colorScheme": "SpaceGray Eighties",
+            // "fontFace": "Consolas NF",
+            "fontFace": "MesloLGLDZ NF",
+            "fontSize": 10,
+            "cursorShape": "vintage",
+            "backgroundImageStretchMode": "uniformToFill",
+            "backgroundImageOpacity": 0.6,
+            "acrylicOpacity": 1,
+            "useAcrylic": true,
+            "hidden": false
+        },
+        "list":
+        [
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore",
+                "backgroundImage": "ms-appdata:///roaming/goose_dark.png"
+            }, {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "hidden": true,
+                "commandline": "powershell.exe",
+                "backgroundImage": "ms-appdata:///roaming/goose_dark.png"
+            }, {
+                "guid": "{47773880-c107-49af-abfe-0408e2d13be6}",
+                "name": "TITAN V 20900",
+                "commandline": "powershell.exe ssh LeoXing@101.6.68.250 -p 20900",
+                "icon": "ms-appdata:///roaming/nvidia_pur.png"
+            }, {
+                "guid": "{c2e7c900-88d5-4756-892a-97fc9df90cbb}",
+                "name": "TITAN XP 7700",
+                "commandline": "powershell.exe ssh xingzn@101.6.68.36 -p 7700",
+                "icon": "ms-appdata:///roaming/nvidia.png"
+            }, {
+                "guid": "{8c26226f-8047-4963-9499-9cf446c235d6}",
+                "name": "TITAN XP 7700@USTB",
+                // "commandline": "powershell.exe ssh LeoXing@202.204.62.28 -p 7700",
+                "commandline": "powershell.exe ssh -L 5901:localhost:5904 LeoXing@202.204.62.28 -p 7700",
+                "icon": "ms-appdata:///roaming/nvidia_sketch.png"
+            }, {
+                "guid": "{8c26226f-8047-4963-9499-9cf446c235d6}",
+                "name": "Tecent Cloud @ root",
+                "commandline": "powershell.exe ssh root@42.193.106.216",
+                "icon": "ms-appdata:///roaming/nvidia_sketch.png"
+            }, {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "hidden": true,
+                "commandline": "cmd.exe"
+            }, {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }, {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+
+    // Add custom color schemes to this array
+    "schemes": [{
+        "name": "Snazzy",
+        "black": "#000000",
+        "red": "#fc4346",
+        "green": "#50fb7c",
+        "yellow": "#f0fb8c",
+        "blue": "#49baff",
+        "purple": "#fc4cb4",
+        "cyan": "#8be9fe",
+        "white": "#ededec",
+        "brightBlack": "#555555",
+        "brightRed": "#fc4346",
+        "brightGreen": "#50fb7c",
+        "brightYellow": "#f0fb8c",
+        "brightBlue": "#49baff",
+        "brightPurple": "#fc4cb4",
+        "brightCyan": "#8be9fe",
+        "brightWhite": "#ededec",
+        "background": "#1e1f29",
+        "foreground": "#ebece6"
+    }, {
+        "name": "SpaceGray Eighties",
+        "black": "#15171c",
+        "red": "#ec5f67",
+        "green": "#81a764",
+        "yellow": "#fec254",
+        "blue": "#5486c0",
+        "purple": "#bf83c1",
+        "cyan": "#57c2c1",
+        "white": "#efece7",
+        "brightBlack": "#555555",
+        "brightRed": "#ff6973",
+        "brightGreen": "#93d493",
+        "brightYellow": "#ffd256",
+        "brightBlue": "#4d84d1",
+        "brightPurple": "#ff55ff",
+        "brightCyan": "#83e9e4",
+        "brightWhite": "#ffffff",
+        "background": "#222222",
+        "foreground": "#bdbaae"
+    }],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
