@@ -53,7 +53,7 @@
                 "commandline": "powershell.exe ssh -L 5901:localhost:5904 LeoXing@202.204.62.28 -p 7700",
                 "icon": "ms-appdata:///roaming/nvidia_sketch.png"
             }, {
-                "guid": "{8c26226f-8047-4963-9499-9cf446c235d6}",
+                "guid": "{e4096259-6963-4cee-aba0-a4db90c6ba96}",
                 "name": "Tecent Cloud @ root",
                 "commandline": "powershell.exe ssh root@42.193.106.216",
                 "icon": "ms-appdata:///roaming/nvidia_sketch.png"
