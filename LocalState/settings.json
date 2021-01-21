@@ -39,7 +39,7 @@
             }, {
                 "guid": "{47773880-c107-49af-abfe-0408e2d13be6}",
                 "name": "TITAN V 20900",
-                "commandline": "powershell.exe ssh LeoXing@101.6.68.250 -p 20900",
+                "commandline": "powershell.exe ssh LeoXing@101.6.68.203 -p 20900",
                 "icon": "ms-appdata:///roaming/nvidia_pur.png"
             }, {
                 "guid": "{c2e7c900-88d5-4756-892a-97fc9df90cbb}",
@@ -52,6 +52,14 @@
                 // "commandline": "powershell.exe ssh LeoXing@202.204.62.28 -p 7700",
                 "commandline": "powershell.exe ssh -L 5901:localhost:5904 LeoXing@202.204.62.28 -p 7700",
                 "icon": "ms-appdata:///roaming/nvidia_sketch.png"
+            }, {
+                "guid": "{9ff150d9-dd99-4b1d-b913-8c19fb245e24}",
+                "name": "RTX 3090 @ 605",
+                "commandline": "powershell.exe ssh LeoXing@115.25.48.33"
+            }, {
+                "guid": "{c1b9af87-53b9-4e64-b466-167d88b1f5c0}",
+                "name": "Remote USTB 7700",
+                "commandline": "powershell.exe ssh LeoXing@42.193.106.216 -p 28080"
             }, {
                 "guid": "{e4096259-6963-4cee-aba0-a4db90c6ba96}",
                 "name": "Tecent Cloud @ root",
